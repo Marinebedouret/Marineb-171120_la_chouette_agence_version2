@@ -749,7 +749,7 @@ h4 {
     margin-top: 50px;
 }
 .text{
-    color:#F3976C;
+    color:#080808;
     font-size: 25px;
 }
 
@@ -827,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
