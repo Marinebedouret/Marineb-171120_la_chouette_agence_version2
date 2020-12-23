@@ -778,7 +778,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(33,33,33 ,0.8);
+    background-color: rgba(66,66,66 ,0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -791,9 +791,6 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -865,7 +862,7 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
+.bg-lines-bg {
     background-image: url("img/lines-h2-bg.png");
 }
 
@@ -875,7 +872,6 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-bannière-web.jpg");
-    opacity: 1;
 }
 
 @media (max-width: 1024px) {
