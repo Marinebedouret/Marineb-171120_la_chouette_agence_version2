@@ -514,16 +514,12 @@ button {
    margin: 0 auto;
    margin-top: 1em;
    margin-bottom: 1em;
-   width: 400px;
    padding: 1em;
    border: 1px solid black;
    border-radius: 1em;
 }
-label{
-    margin-left: 10px;
+label {
     display: inline-grid;
-    width: 90px;
-
 }
 
 .scrollToTop {
@@ -808,7 +804,7 @@ h4 {
     margin-left: 20px;
 }
 .btn-width{
-    width: 35%;
+    width: 40%;
 }
 .contact{
     text-decoration: none;
@@ -871,7 +867,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-bannière-web.jpg");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -935,6 +931,12 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    .location{
+        float: left;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        margin-top: -25px;
     }
 }
 
@@ -1062,6 +1064,7 @@ h4 {
     form {
         padding: 5px;
     }
+
     .close-lightbox {
         display: inline-block;
     }
@@ -1074,6 +1077,28 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .location {
+        padding-left: 20px;
+    }
+    .social{
+        display: flex;
+        max-width: 200px;
+    }
+    .twitter{
+        margin: 5px;
+    }
+    .facebook{
+        margin: 5px;
+    }
+    .dribble{
+        margin: 5px;
+    }
+    .instagram{
+        margin: 5px;
+    }
+    .portfolio-row{
+        margin-left: 20px;
     }
 }
 
@@ -1088,4 +1113,5 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
 }
